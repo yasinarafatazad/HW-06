@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: brown; */
+}
+.one{
+    display: inline;
+    height: 200px;
+    width: 300px;
+    background: coral;
+    /* Height and width are not working for this div. Because height and width are not work properly on inline display... */
+}
+.two{
+    display: block;
+    height: 200px;
+    width: 300px;
+    background: coral;
+    margin: 50px;
+    padding: 20px;
+    /* Yeaahh..! height and width are properly working now. Looks, The background of this div took its width. again it tooks full width on screen out of the div. Its for the block value of display property. */
+}
+.three{
+    display: Inline-block;
+    height: 200px;
+    width: 300px;
+    background: coral;
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid dimgrey;
+    
+    /* Hurrahhh..! height and width are properly working. Looks, The background of this div took its width only. But it didn't take full width on screen out of the div. Its for the Inline-block value of display property. In this Div, I also added a border nice looks.*/
+}
