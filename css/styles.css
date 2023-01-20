@@ -3,6 +3,10 @@
     padding: 0;
     /* background: brown; */
 }
+.container{
+    height:100%;
+    width:100%;
+}
 .one{
     display: inline;
     height: 200px;
